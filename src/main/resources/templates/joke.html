@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Jokes App</title>
+</head>
+<script>
+    function refreshPage() {
+        location.reload();
+    }
+</script>
+<body>
+<div class="container">
+    <h1>Joke:</h1>
+    <p th:text="${joke}"></p>
+    <button onclick="refreshPage()">New Joke</button>
+</div>
+</body>
+</html>
