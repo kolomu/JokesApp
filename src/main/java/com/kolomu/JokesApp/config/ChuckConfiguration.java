@@ -11,10 +11,10 @@ import org.springframework.context.annotation.Configuration;
  *
  * Good use case when dealing with external JARs. (where you don't control the source code)
  * */
-@Configuration
+// @Configuration
 public class ChuckConfiguration {
 
-    @Bean
+    // @Bean
     public ChuckNorrisQuotes chuckNorrisQuotes() {
         return new ChuckNorrisQuotes();
     }
